@@ -1,5 +1,4 @@
-// global datastore
-let store = { neighborhoods: [], meals: [], customers: [], deliveries: [] };
+
 const expect = chai.expect;
 describe('index.js', () => {
   describe('Global Data Store', () => {
