@@ -265,3 +265,13 @@ describe('index.js', () => {
     });
   });
 });
+
+    describe('Neighborhood methods', () => {
+      describe('meals()', () => {
+        it('returns a unique list of meals orderd in a neighborhood', () => {
+          expect(upperEast.meals().length).to.equal(3);
+        });
+      });
+    });
+  });
+});
